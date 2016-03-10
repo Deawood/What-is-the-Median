@@ -32,7 +32,7 @@ int main() {
 				smallerHalf.pop();
 			}
 			largerHalf.push(n);
-			printf("%u\n", (smallerHalf.top()+largerHalf.top())/2);
+			printf("Median: %u\n", (smallerHalf.top()+largerHalf.top())/2);
 		}
 		//printf("\tThe top of the heaps are \n\t%u and %u\n", smallerHalf.top(), largerHalf.top());
 	}
